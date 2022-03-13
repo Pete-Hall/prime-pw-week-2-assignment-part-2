@@ -133,11 +133,18 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX - colorOne is supposed to be set to 'blue'.
+//Should be: let colorOne = 'blue';
 let colorOne = 'red';
+//FIX - colorTwo is supposed to be set to 'red'.
+//Should be: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //FIX - if true (which it is) colorOne AND colorTwo should be set to 'purple', not just colorOne.
+  //Should be: colorOne = 'purple';
+  //           colorTwo = 'purple';
   colorOne = 'purple';
 }
 */
@@ -149,7 +156,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//FIX - the conditional statement is supposed to be AND, not OR (||).
+//Should be: if (temp > 39 && time >=4) {
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,10 +170,15 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+//FIX - we want to check if age is greater than or equal to minAge, not if minAge is less than or equal to age.
+//Should be: if(age >= minAge) {
 if(minAge <= age) {
+  //FIX - we want the true value of the conditional statement to console log 'enter'
+  //Should be: console.log('enter');
   console.log('no entry');
 } else {
+  //FIX - to correspond with the above fix, we want to console.log 'no entry' if the conditional statement is not true.
+  //Should be: console.log('no entry');
   console.log('enter');
 }
 */
