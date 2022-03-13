@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'name' with a value of string 'Dane'. Since we used 'let', we can update the value of 'name' later on if we want to.
+// We create a conditional statment that checks to see if the value (and datatype) of the variable 'name' is equal to the string 'Mary'.
+// If the conditional statement is true ('name' is equal to 'Mary'), the console will log 'Hi, Mary!'. If not, the console will log 'How do you do?'.
+// Since the variable 'name' is not equal to the string 'Mary', the console will log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'secret' with no stored value. Since we used 'let' to create the variable, we can update the value of 'secret' later on if we want to.
+// We create another variable called 'code' set it to the number 123.
+// We create a conditional statement that checks to see if the variable 'code' is equal in value and datatype to the number 123. If that statement is true, the value of variable 'secret' is set to string 'super' and the variable 'code' is set to the value of 'code times 2', which is the number 246 (since 123 * 2 = 246). If the conditional statement is not true, nothing happens. In this case, the conditinal statement is true, so the value of variable 'secret' is now 'super' and the value of code is now number 246.
+// We create another conditional statement that checks to see if the variable 'code' is greater than the number 250. If that statement is true, the variable 'secret' is set to the value of string 'duper'. If the conditional statement is not true, nothing happens. In this case, since the value of variable 'code' is currently set at 246, the conditional statement is not true, which means that nothing happens.
+// At the end, we console log the current value of the variable 'secret', which would show us the string 'super'.
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'isStudent' and set it to the boolean value of 'true'. Since we used 'let', this variable can be updated later on if we want. 
+// We create another variable called 'age' and set it to the number 34. Since we used 'let', this variable can be updated later on if we want.
+// We create a third variable called 'zip' and set it to the number 55407. Since we used 'let', this variable can be updated later on if we want.
+// We create an if...else conditional statment code block. 
+// In this if...else code block, we first create a conditional statement that checks to see if the variable 'isStudent' is equal in value and datatype to the boolean 'true' AND if the variable 'zip' is equal to the number 80000. If both of those statements are true, the console will log 'You're a student on the West Coast!'. If not, we check a new conditional statment to see if the variable 'isStudent' is equal in value and datatype to the boolean 'false' OR if the variable 'age' is less than the number 30. If either of these two previous statements are true, the console will log 'What are your hobbies?'. If not, we create another new conditional statement that checks to see if the variable 'isStudent' is equal in value and datatype to the boolean value 'true'. If that statement is true, the console will log 'Welcome to Prime!'. If not, the console will log 'How about the weather?' and end the else...if conditional block.
+// The console will log 'Welcome to Prime!' since that is the first conditional statement that is true (isStudent is indeed equal to the boolean 'true').
 
 //CODE
 /*
